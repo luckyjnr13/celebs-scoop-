@@ -83,3 +83,6 @@ if search_query:
                 st.info("No recent headlines found for this person in the last 30 days.")
         else:
             st.info("💡 NewsAPI Key config missing. Add your NewsAPI key to your Streamlit secrets to display live global tracking items.")
+if st.button("Let's Go! 🔍 Open Search"):
+    st.switch_page("pages/1_🔍_Search.py")
+
