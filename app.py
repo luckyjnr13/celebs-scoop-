@@ -51,3 +51,7 @@ Get real-time biographic data from Wikipedia and the absolute latest press break
 """)
 
 st.image("https://images.unsplash.com/photo-1514306191717-452ec28c7814?q=80&w=600", caption="Step onto the Red Carpet")
+# Add this to the very bottom of your app.py file if you want a clickable button!
+if st.button("Let's Go! 🔍 Open Search"):
+    st.switch_page("pages/1_🔍_Search.py")
+
