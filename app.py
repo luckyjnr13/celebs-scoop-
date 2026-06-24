@@ -14,7 +14,7 @@ st.set_page_config(
 
 # Custom Injection for Wine Red Background & Neon K-Pop Vibe Typography
 st.markdown("""
-    <style>
+    </style>
     /* Main container background */
     .stApp {
         background: linear-gradient(135deg, #4a000e 0%, #2b0004 50%, #120002 100%);
